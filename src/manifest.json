@@ -4,11 +4,13 @@
   "description": "Tools that make life as a Slack emoji addict a little easier.",
   "version": "3.3.0",
   "permissions": [],
-  "content_scripts": [{
-    "js": ["content.js"],
-    "matches": ["*://*.slack.com/*/emoji*"],
-    "run_at": "document_end"
-  }],
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://*.slack.com/*/emoji*"],
+      "run_at": "document_end"
+    }
+  ],
   "icons": {
     "128": "images/icon_128.png"
   },

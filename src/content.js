@@ -1,12 +1,10 @@
-import './styles/content.css';
+import App from "./components/app.svelte";
 
-import App from './components/app.svelte';
+const ELEMENT_TO_INSERT_BEFORE_SELECTOR = ".p-customize_emoji_wrapper";
 
-const ELEMENT_TO_INSERT_BEFORE_SELECTOR = '.p-customize_emoji_wrapper';
-
-function elementIsReady (selector) {
+function elementIsReady(selector) {
   return new Promise((resolve) => {
-    function checkForElement () {
+    function checkForElement() {
       const element = document.querySelector(selector);
 
       if (element) {
@@ -21,10 +19,10 @@ function elementIsReady (selector) {
 }
 
 elementIsReady(ELEMENT_TO_INSERT_BEFORE_SELECTOR).then((element) => {
-  const containerDiv = document.createElement('div');
+  const containerDiv = document.createElement("div");
 
   element.before(containerDiv);
   new App({
-    target: containerDiv
+    target: containerDiv,
   });
 });

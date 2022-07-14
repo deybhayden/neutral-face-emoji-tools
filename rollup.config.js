@@ -15,7 +15,7 @@ const config = {
   plugins: [
     css(),
     svelte({
-      emitCss: true,
+      emitCss: false,
     }),
     babel({
       babelHelpers: "bundled",
