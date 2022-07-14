@@ -27,24 +27,24 @@
   },
   "homepage": "https://github.com/Fauntleroy/neutral-face-emoji-tools#readme",
   "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@rollup/plugin-babel": "^5.0.0",
-    "@rollup/plugin-commonjs": "^11.1.0",
-    "@rollup/plugin-node-resolve": "^7.1.3",
-    "mkdirp": "^0.5.1",
+    "@babel/core": "^7.18.6",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "mkdirp": "^1.0.4",
     "ncp": "^2.0.0",
-    "rollup": "^2.8.2",
-    "rollup-plugin-embed-css": "^1.0.16",
+    "rollup": "^2.76.0",
+    "rollup-plugin-import-css": "^3.0.3",
     "rollup-plugin-node-builtins": "^2.1.2",
     "rollup-plugin-node-globals": "^1.4.0",
-    "rollup-plugin-svelte": "^5.2.1",
-    "svelte": "^3.22.2"
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.49.0"
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "axios-concurrency": "^1.0.3",
-    "file-selector": "^0.1.12",
-    "lodash": "^4.17.15",
-    "uuid": "^2.0.1"
+    "axios": "^0.27.2",
+    "axios-concurrency": "^1.0.4",
+    "file-selector": "^0.6.0",
+    "lodash": "^4.17.21",
+    "uuid": "^8.3.2"
   }
 }
